@@ -22,8 +22,8 @@ print("Scanning Target " +target)
 print("Time Started: " +str(datetime.now()))
 print("- -" * 50)
 
-victim_os = platform.system()
-print("Victim OS is: ",victim_os)
+target_os = platform.system()
+print("Target OS is: ",target_os)
 
 try:
 	for port in range(50,85):
